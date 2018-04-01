@@ -1,0 +1,9 @@
+<div class="container pad-25 slide">
+  <div *ngFor="let x of imgUrl">
+    <img src="{{ x }}">
+  </div>
+</div>
+
+<p *ngIf="!loadedInstagramApi" style="background: red;" >
+  Loading...
+</p>

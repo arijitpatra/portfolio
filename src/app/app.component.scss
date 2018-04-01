@@ -1,0 +1,40 @@
+.overallLoad {
+    animation: load 2.5s ease-in-out infinite;
+    // transition: 10s;
+    // height: calc(100vh / 3);
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+}
+
+@keyframes load {
+    0% {
+        // background: yellow;
+        border: 15px solid blue;
+        // transform: rotate(270deg);
+        // transform: translateY(-50px);
+    }
+    25% {
+        // background: blue;
+        border: 15px solid red;
+        // transform: rotate(0deg);
+        // transform: translateY(-25px);
+    }
+    50% {
+        // background: purple;
+        border: 15px solid green;
+        // transform: rotate(270deg);
+        // transform: translateY(50px);
+    }
+    100% {
+        // background: black;
+        border: 15px solid purple;
+        // transform: rotate(0deg);
+        // transform: translateY(-50px);
+    }
+}

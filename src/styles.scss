@@ -1,0 +1,362 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+
+body{
+    position: relative;
+}
+
+.font-primary{
+    font-family: 'Raleway', sans-serif;
+}
+
+.font-bold{
+    font-weight: 700;
+}
+
+.namefontsize{
+    font-size: 21px;
+}
+
+.namediv-height{
+    height: 100px;
+    width: 100%;
+}
+
+.namepara-position{
+    position: relative;
+    top: 50%;
+}
+
+.wrap{
+    width: 1000px;
+}
+
+.dp-dimension{
+    width: 200px;
+}
+
+.dp-margin{
+    margin: 0 auto;
+}
+
+.pad-25{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer-social-font{
+    font-size: 25px;
+}
+
+.footer-madein-font{
+    font-size: 11px;
+}
+
+.menu-font{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    color: #EA4335;
+}
+
+.width-100{
+    width: 100%;
+}
+
+/*.site-footer {
+    background-color: gray;
+    bottom: 0px;
+    position: absolute;
+    height: 75px;
+    width: 100%;
+}*/
+
+.resume-border {
+    border: 3px solid #555;
+    padding: 10px;
+    display: inline-block;
+    width: 250px;
+}
+
+.nodeco-link {
+    text-decoration: none;
+    color: #555;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #555;
+}
+
+a:active {
+    text-decoration: none;
+    color: #555;
+}
+
+.resume-link-hover:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #555;
+}
+
+footer {
+    height: 70px;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #fff;
+    color: #555;
+    display: block;
+}
+
+.photo-redirection {
+    display: none;
+}
+
+.pulse-size {
+    font-size: 50px;
+}
+
+.cancel-box {
+    border: 3px solid #555;
+    padding: 5px;
+}
+
+.cancel-text {
+    color: #555;
+    font-size: 14px;
+}
+
+.times-text {
+    font-size: 18px;
+    color: #555;
+}
+
+.horizontal-gap-5 {
+    letter-spacing: 5px;
+}
+
+.quora-icon {
+    position: relative;
+    top: -2px;
+    font-size: larger;
+}
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+    border-bottom: 5px solid #fff; 
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #111;
+    border-bottom: 5px solid #EA4335;    
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: #EA4335;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #fff; 
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+li{
+    cursor: pointer;
+}
+
+.footer-social-font .fa:hover {
+    transform: translateY(-5px);
+    transition: 0.2s;
+    transform: scale(1.5);
+  }
+
+  .namediv-height {
+    /*background-image: url('ap.JPG');*/
+  }
+
+  .sidebar {
+    position: fixed;
+    width: 10px;
+    top: 0;
+    left: 0;
+    background: #a5ea4b;
+    z-index: 99999;
+    height: 100%;
+  }
+
+  .sidebar:hover {
+    width: 20%;
+    transition: 2s;
+  }
+	
+  .sidebar:not( :hover) {
+    width: 10px;
+    transition: 1s;
+  }
+
+	/*.page        { 
+	bottom:0; 
+	padding-top:200px;
+	position:absolute; 
+	text-align:center;
+	top:0;  
+	width:100%; 
+}*/
+	
+	/* .page.ng-leave        {
+    -webkit-animation:slideOutLeft 0.5s both ease-in;
+	-moz-animation:slideOutLeft 0.5s both ease-in;
+	animation:slideOutLeft 0.5s both ease-in;   
+}
+	.page.ng-enter 		{  
+    -webkit-animation:slideInRight 0.5s both ease-in;
+	-moz-animation:slideInRight 0.5s both ease-in;
+	animation:slideInRight 0.5s both ease-in;    
+} */
+
+
+/* slide in from the right */
+@keyframes slideInRight {
+	from 	{ transform:translateX(100%); }
+	to 		{ transform: translateX(0); }
+}
+@-moz-keyframes slideInRight {
+	from 	{ -moz-transform:translateX(100%); }
+	to 		{ -moz-transform: translateX(0); }
+}
+@-webkit-keyframes slideInRight {
+	from 	{ -webkit-transform:translateX(100%); }
+	to 		{ -webkit-transform: translateX(0); }
+}
+
+/* slide in from the bottom */
+@keyframes slideInUp {
+	from 	{ transform:translateY(100%); }
+	to 		{ transform: translateY(0); }
+}
+@-moz-keyframes slideInUp {
+	from 	{ -moz-transform:translateY(100%); }
+	to 		{ -moz-transform: translateY(0); }
+}
+@-webkit-keyframes slideInUp {
+	from 	{ -webkit-transform:translateY(100%); }
+	to 		{ -webkit-transform: translateY(0); }
+}
+
+/* slide in from the bottom */
+@keyframes slideOutLeft {
+	to 		{ transform: translateX(-100%); }
+}
+@-moz-keyframes slideOutLeft {	
+	to 		{ -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes slideOutLeft {
+	to 		{ -webkit-transform: translateX(-100%); }
+}
+	
+	body {
+    overflow-x:hidden;  
+}
+
+	/*SLIDING EFFECT*/
+	.slide {
+		animation: slideLeft 0.5s;
+		overflow-x: hidden;
+	}
+	
+
+	@keyframes slideLeft {
+		/* 0% {margin-left: 350px;}
+		25% {margin-left: -250px;}
+		50% {margin-left: 100px;} */
+		/*0% {margin-left: 250px;}
+		100%{margin-left: 0px;}*/
+		
+0% {transform: translateX(25%); opacity: 0;}
+		90% 		{ transform: translateX(-3%); opacity: 0.9;}
+		100% 		{ transform: translateX(0%); opacity: 1;}
+	}
+
+/*	 body {
+	background-repeat: no-repeat;
+    background: linear-gradient(141deg, #ffffff 50%, #dcdcdc 0%);
+	} */
+
+	.not-active {
+	    pointer-events: none;
+    cursor: default;
+    color: #c0c0c0 !important;
+	}
+	
+	.nodeco-link:focus {
+	color: #555;
+	}
+	@media only screen and (max-width: 768px) {
+	
+	body {
+	background: none;
+	}
+	
+	.namediv-height {
+	height: 45px;
+	}
+	.nav-margin-bottom {
+	margin-bottom: 0px;
+	}
+    }
+    
+    .dp-dimension{ 
+        filter: grayscale(100%); 
+            transition: 0.2s;
+        } 
+        .dp-dimension:hover{ 
+            filter: grayscale(0%); 
+            transition: 0.2s;
+        } 
