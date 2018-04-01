@@ -32,6 +32,10 @@ export class PhotographyComponent implements OnInit {
     this.loadedInstagramApi = true;
   }
 
+  passLink(passedUrl : string) {
+      console.log("url is ", passedUrl);
+  }
+
   ngOnInit() {
   }
 
