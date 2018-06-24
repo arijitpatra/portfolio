@@ -15,7 +15,8 @@ export class PhotographyComponent implements OnInit {
   i: number;
 
   constructor(private http: HttpClient) {     
-    this.getInstagram();
+    // this.getInstagram();
+    this.saveLinks('fakeLink');
   }
 
   getInstagram() {
@@ -28,7 +29,8 @@ export class PhotographyComponent implements OnInit {
   }
 
   saveLinks(link: any) {
-    this.imgUrl.push(link);
+    // this.imgUrl.push(link);
+    this.imgUrl = ["https://bit.ly/2rcRkLl", "https://bit.ly/2FpMRJe", "https://bit.ly/2HAxfEM"];
     this.loadedInstagramApi = true;
   }
 
