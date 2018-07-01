@@ -1,0 +1,11 @@
+.fullImageResponsive {
+    height:90%;
+}
+
+@media screen and (max-width: 768px) {
+    .fullImageResponsive {
+        height:auto;
+        width: 90%;
+        margin-top: 50px;
+    }
+}

@@ -13,6 +13,8 @@ export class PhotographyComponent implements OnInit {
   data: any = [];
   imgUrl: any = [];
   i: number;
+  fullImage = '';
+  lightboxEnabled = false;
 
   constructor(private http: HttpClient) {     
     // this.getInstagram();
@@ -31,14 +33,24 @@ export class PhotographyComponent implements OnInit {
   saveLinks(link: any) {
     // this.imgUrl.push(link);
     this.imgUrl = ["https://bit.ly/2rcRkLl", "https://bit.ly/2FpMRJe", "https://bit.ly/2HAxfEM"];
+    this.fullImage = this.imgUrl[0];
     this.loadedInstagramApi = true;
   }
 
-  passLink(passedUrl : string) {
+  passLink(passedUrl: string) {
       console.log("url is ", passedUrl);
   }
 
   ngOnInit() {
+  }
+
+  changeFullImage(x) {
+    this.fullImage = x;
+    this.lightboxEnabled = true;
+  }
+
+  closeLightBox() {
+    this.lightboxEnabled = false;
   }
 
 }
