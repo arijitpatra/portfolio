@@ -1,33 +1,35 @@
 <h1 style="display: none;">Arijit Patra</h1>
 <!-- <div class="sidebar"></div> -->
 <div class="heading">
-  <div class="text-center namediv-height">
+  <div class="text-center namediv-height name-for-mobile">
     <p class="namepara-position">
       <span class="font-primary namefontsize">
-        <span class="font-bold" style="letter-spacing: 5px;">ARIJIT</span>
-        <span>&nbsp;PATRA</span>
+        <!-- <span style="font-family: 'Nothing You Could Do', cursive;font-size: 32px;">Arijit Patra</span> -->
+        <span style="font-family: 'Homemade Apple', cursive;font-size: 27 px;">Arijit Patra</span>
+        <!-- <span class="font-bold" style="letter-spacing: 5px;">ARIJIT</span>
+        <span>&nbsp;PATRA</span> -->
       </span>
     </p>
   </div>
-  <div class="navbar navbar-default font-primary nav-margin-bottom" role="navigation" style="background: transparent;border: transparent;">
+  <div class="navbar navbar-default font-primary nav-margin-bottom nav-for-mobile" role="navigation" style="background: transparent;border: transparent;">
     <div class="navbar-header">
       <span class="navbar-toggle width-100" data-toggle="collapse" data-target="#navlinks">
         <i class="fa fa-bars menu-font"></i>
       </span>
     </div>
-    <div class="collapse navbar-collapse width-100" id="navlinks">
+    <div class="collapse navbar-collapse width-100" id="navlinks" style="border: none;">
       <ul class="nav navbar-nav">
         <li id="me">
-          <a routerLink="/about">About</a>
+          <a routerLink="/about" routerLinkActive="active-link">About</a>
         </li>
-        <li id="resume" class="not-active">
-          <a routerLink="/resume" class="not-active">Resume</a>
+        <li id="resume">
+          <a routerLink="/resume" routerLinkActive="active-link">Resume</a>
         </li>
         <li id="work" class="not-active">
           <a href="" class="not-active">Work</a>
         </li>
         <li id="photo">
-          <a routerLink="/photography">Photography</a>
+          <a routerLink="/photography" routerLinkActive="active-link">Photography</a>
         </li>
         <li id="design" class="not-active">
           <a href="" class="not-active">Design</a>

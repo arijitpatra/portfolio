@@ -9,6 +9,7 @@
 html,body{
     font-family: 'Open Sans', sans-serif;
     height: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -360,3 +361,8 @@ li{
             filter: grayscale(0%); 
             transition: 0.2s;
         } 
+
+        .active-link {
+            color: #EA4335 !important;
+            font-weight: 700;
+        }
